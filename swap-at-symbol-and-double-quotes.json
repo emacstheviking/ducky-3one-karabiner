@@ -1,0 +1,38 @@
+{
+    "description": "Swap @ symbol and double quotes",
+    "manipulators": [
+        {
+            "from": {
+                "key_code": "2",
+                "modifiers": {
+                    "mandatory": ["shift"],
+                    "optional": ["caps_lock"]
+                }
+            },
+            "to": [
+                {
+                    "key_code": "quote",
+                    "modifiers": ["left_shift"]
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "quote",
+                "modifiers": {
+                    "mandatory": ["shift"],
+                    "optional": ["caps_lock"]
+                }
+            },
+            "to": [
+                {
+                    "key_code": "2",
+                    "modifiers": ["left_shift"]
+                }
+            ],
+            "type": "basic"
+        }
+    ]
+}
+

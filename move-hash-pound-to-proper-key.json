@@ -1,0 +1,22 @@
+{
+    "description": "Move HASH/POUND to proper key",
+    "manipulators": [
+        {
+            "from": {
+                "key_code": "backslash",
+                "modifiers": {
+                    "mandatory": [],
+                    "optional": ["caps_lock"]
+                }
+            },
+            "to": [
+                {
+                    "key_code": "3",
+                    "modifiers": ["right_option"]
+                }
+            ],
+            "type": "basic"
+        }
+    ]
+}
+

@@ -1,0 +1,22 @@
+{
+    "description": "Move Pipe to proper key",
+    "manipulators": [
+        {
+            "from": {
+                "key_code": "non_us_backslash",
+                "modifiers": {
+                    "mandatory": [],
+                    "optional": ["caps_lock"]
+                }
+            },
+            "to": [
+                {
+                    "key_code": "backslash",
+                    "modifiers": []
+                }
+            ],
+            "type": "basic"
+        }
+    ]
+}
+

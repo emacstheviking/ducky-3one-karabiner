@@ -1,0 +1,22 @@
+{
+    "description": "Move Backslash to proper key",
+    "manipulators": [
+        {
+            "from": {
+                "key_code": "non_us_backslash",
+                "modifiers": {
+                    "mandatory": ["shift"],
+                    "optional": ["caps_lock"]
+                }
+            },
+            "to": [
+                {
+                    "key_code": "backslash",
+                    "modifiers": ["shift"]
+                }
+            ],
+            "type": "basic"
+        }
+    ]
+}
+
