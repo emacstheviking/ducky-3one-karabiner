@@ -2,7 +2,7 @@
 
 These are the various Complex modification JSON files for making my Ducky One
 3 full size keyboard, plugged into a Mac Mini running macOS Sequoia version
-15.0.1
+15.0.1, play nicely with it.
 
 This keyboard MUST be selected as type "ANSI (North America, most of Asia and
 others) under the Virtual Keyboard settings section.
